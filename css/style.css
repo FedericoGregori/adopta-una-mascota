@@ -5,14 +5,13 @@
 
 .wrapper {
     display: grid;
-    grid-gap: 10px;
+    background-color: rgba(0, 0, 0, 0.07);
 }
 
 .container-header {
     display: grid;
-    grid-gap: 2px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 200px 50px 80px;
+    grid-template-rows: 200px 50px 100px;
     grid-template-areas: 
     "instructions  logo   about"
     "slogan  slogan   slogan"
@@ -58,7 +57,7 @@
     grid-area: slogan;
     text-align: center;
     line-height: 10px;
-    color: antiquewhite;
+    color: white;
     background: #6ebf4b;
     background-size: cover;
 }
@@ -67,7 +66,8 @@
     grid-area: cate;
     display: flex;
     justify-content: center;
-    color: lightseagreen;
+    color: white;
+    background-color: darkgreen;
 }
 
 .cate ul {
@@ -79,12 +79,14 @@
 ul li {
     margin: 10px;
 }
+
 .cate a {
     font-size: 26px;
     text-decoration: none;
     text-transform: uppercase;
     color: #6ebf4b;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 
 .container-gallery {
