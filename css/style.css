@@ -1,0 +1,33 @@
+.container-header {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "instructions  logo   about"
+    "slogan  slogan   slogan"
+    "cate     cate    cate";
+    justify-items: center;
+}
+
+.instructions {
+    grid-area: instructions;
+}
+
+.logo {
+    grid-area: logo;
+    height: 190px;
+    width: 190px;
+}
+
+.about {
+    grid-area: about;
+}
+
+.slogan {
+    grid-area: slogan;
+}
+
+.cate {
+    grid-area: cate;
+}
