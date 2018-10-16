@@ -95,18 +95,9 @@ ul li {
     grid-auto-flow: dense;
 }
 
-//
-// Variables / Config
-//
-$mq-xsmall: 640px;
-$mq-small: 768px;
-$mq-med: 1024px;
-$mq-large: 1440px;
-$mq-xlarge: 1840px;
 
-//
-// Base
-//
+
+
 *, 
 *:before, 
 *:after {
@@ -121,9 +112,6 @@ body {
   line-height: 1.5;
 }
 
-//
-// Media
-//
 figure {
   margin: 0;
 }
